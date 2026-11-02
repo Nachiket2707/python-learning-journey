@@ -1,6 +1,6 @@
-# Learning roadmap
+# Level 1 learning roadmap
 
-Work at a comfortable pace. Check an item only after practicing it and explaining it in your own words.
+A general plan for organizing foundations, collections, functions, exceptions, and file handling. This is a study guide rather than a statement that every item has been completed.
 
 ## 1. Foundations
 
@@ -31,9 +31,8 @@ Suggested project: a quiz with a score and a list of questions.
 
 Suggested project: a command-line expense tracker using fictional sample data.
 
-## 4. Program structure
+## 4. Organizing practice
 
-- [ ] Understand classes, objects, and methods.
 - [ ] Organize a small project into modules.
 - [ ] Create a virtual environment before adding dependencies.
 - [ ] Document setup, usage, and limitations.
