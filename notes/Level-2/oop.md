@@ -1,6 +1,6 @@
 # Level 2 — Module 1: Object-Oriented Programming
 
-[Back to the topic overview](../PROGRESS.md) · [Repository home](../README.md)
+[Back to the topic overview](PROGRESS.md) · [Repository home](README.md)
 
 ## Classes and objects
 
