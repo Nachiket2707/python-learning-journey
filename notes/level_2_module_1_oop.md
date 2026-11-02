@@ -8,9 +8,9 @@ Object-oriented programming (OOP) groups related data and behavior. A **class** 
 
 An **attribute** stores data on an object or class. A **method** is a function defined in a class that provides behavior. In the complete example below, Student is the class, maya and arjun refer to separate objects, name and scores are instance attributes, and average() is an instance method.
 
-## Initializing an object with __init__
+## Initializing an object with `__init__`
 
-Calling Student("Maya") creates an instance and automatically runs its __init__ method to initialize it. __init__ sets the starting attributes; it must return None (normally by having no return statement). It initializes an already-created object.
+Calling Student("Maya") creates an instance and automatically runs its `__init__` method to initialize it. `__init__` sets the starting attributes; it must return None (normally by having no return statement). It initializes an already-created object.
 
 Each call creates a new scores list, so one student's scores stay separate from another student's scores.
 
@@ -24,7 +24,7 @@ Use self.name to access that object's name and self.scores to access its scores.
 
 | Kind | Defined in this example | Meaning |
 | --- | --- | --- |
-| Instance attribute | self.name and self.scores inside __init__ | Each student has their own values |
+| Instance attribute | self.name and self.scores inside `__init__` | Each student has their own values |
 | Class attribute | school_name in the class body | A shared default available through the class and its instances |
 
 When an instance has no attribute of its own with a given name, lookup can find the class attribute. Changing Student.school_name changes the value seen by both students in this example. Assigning maya.school_name would instead create an instance attribute that shadows the shared value for Maya.
@@ -121,7 +121,7 @@ Invalid score: Score must be between 0 and 100.
 
 ## Walk through the example
 
-1. Two calls to Student create two independent objects. __init__ assigns each name and a fresh list.
+1. Two calls to Student create two independent objects. `__init__` assigns each name and a fresh list.
 2. summary() calls average(). An empty list produces 0.0 here by design, avoiding division by zero.
 3. add_score() validates a value before appending it. Maya receives two scores; Arjun receives one.
 4. Updating Student.school_name changes the shared class attribute. Both summaries show the new school.
