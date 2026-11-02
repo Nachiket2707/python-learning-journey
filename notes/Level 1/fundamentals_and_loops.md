@@ -10,7 +10,7 @@ A variable refers to a value. Defining `marks = 85.5` stores a value; displaying
 
 A percentage is `marks / maximum_marks * 100`. For a passing threshold of 40%, use `percentage >= 40` so exactly 40% passes. An `if` or `else` block uses a colon and an indented body.
 
-Run the illustrative [student_result.py](../exercises/session_review/student_result.py):
+Run the illustrative [student_result.py](exercises/session_review/student_result.py):
 
 ```bash
 python3 exercises/session_review/student_result.py
@@ -28,7 +28,7 @@ The function accepts other maximum marks too: 80 out of 200 is 40%. It validates
 
 `range(1, 21)` generates integers from 1 through 20 because its stop value is excluded. `number % 2 == 0` selects even numbers.
 
-A counter increases by one for each match. An accumulator increases by the value being added. The illustrative [even_numbers.py](../exercises/session_review/even_numbers.py) prints:
+A counter increases by one for each match. An accumulator increases by the value being added. The illustrative [even_numbers.py](exercises/session_review/even_numbers.py) prints:
 
 ```text
 Sum of even numbers: 110
@@ -39,4 +39,4 @@ Run `python3 exercises/session_review/even_numbers.py`.
 
 To collect matching values, create a list with square brackets and call `even.append(number)` inside the condition. Using `break` would end the loop early, so it is unnecessary when processing the entire range.
 
-Return to [topics studied](../PROGRESS.md).
+Return to [topics studied](PROGRESS.md).
