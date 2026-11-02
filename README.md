@@ -4,15 +4,14 @@ Python learning notes, clear explanations, and runnable illustrative examples.
 
 ## Topics studied
 
-My current learning stage is **Python Level 2 — Intermediate Programming**, with a focus on object-oriented programming.
+This published collection focuses on **Python Level 1 topics** and related introductory data concepts.
 
 Read [the topic overview](PROGRESS.md) for a guide to the material:
 
 1. [Variables, conversion, conditions, and loops](notes/01_fundamentals_and_loops.md)
 2. [Exceptions, file paths, text, CSV, and JSON](notes/02_files_and_exceptions.md)
-3. [Collections, function tools, sorting, and arguments](notes/03_collections_and_functions.md)
-4. [Classes, objects, and methods](notes/04_level_2_oop.md)
-5. [Data visualization concepts](notes/05_data_visualization.md)
+3. [Collections and basic functions](notes/03_collections_and_functions.md)
+4. [Data visualization concepts](notes/05_data_visualization.md)
 
 The scripts are illustrative examples prepared for this repository, using fictional data. This collection records topics studied rather than claiming that every exercise has been completed or that mastery has been independently assessed.
 
@@ -24,7 +23,7 @@ The scripts are illustrative examples prepared for this repository, using fictio
 4. Run an example: `python3 exercises/session_review/file_formats.py`.
 5. Use [the topic overview](PROGRESS.md) to find explanations and expected outputs.
 
-On Windows, use `py` if `python3` is unavailable. All five topic-review scripts use only the standard library. The file example uses a temporary folder and cleans it up automatically.
+On Windows, use `py` if `python3` is unavailable. All four topic-review scripts use only the standard library. The file example uses a temporary folder and cleans it up automatically.
 
 ## Repository guide
 
