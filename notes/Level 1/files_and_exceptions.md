@@ -69,7 +69,7 @@ Open CSV files with `newline=""` so the CSV module manages line endings. `DictRe
 
 ## Run the file-management example
 
-The illustrative [file_formats.py](../exercises/session_review/file_formats.py) creates a folder, writes and appends text, reads it back, writes CSV headers and records, and saves/loads JSON. Fictional data and temporary storage make it repeatable.
+The illustrative [file_formats.py](../../exercises/session_review/file_formats.py) creates a folder, writes and appends text, reads it back, writes CSV headers and records, and saves/loads JSON. Fictional data and temporary storage make it repeatable.
 
 `python3 exercises/session_review/file_formats.py` prints:
 
@@ -82,4 +82,4 @@ JSON rows: 2
 
 The temporary folder is removed automatically after the example. For a persistent project, choose a dedicated output directory and be aware that write mode replaces existing contents.
 
-Return to [topics studied](../PROGRESS.md).
+Return to [topics studied](../../PROGRESS.md).
