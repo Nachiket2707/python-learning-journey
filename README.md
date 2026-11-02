@@ -8,11 +8,11 @@ This published collection focuses on **Python Level 1 topics**, related introduc
 
 Read [the topic overview](PROGRESS.md) for a guide to the material:
 
-1. [Variables, conversion, conditions, and loops](notes/01_fundamentals_and_loops.md)
-2. [Exceptions, file paths, text, CSV, and JSON](notes/02_files_and_exceptions.md)
-3. [Collections and basic functions](notes/03_collections_and_functions.md)
+1. [Variables, conversion, conditions, and loops](notes/Level%201/fundamentals_and_loops.md)
+2. [Exceptions, file paths, text, CSV, and JSON](notes/Level%201/files_and_exceptions.md)
+3. [Collections and basic functions](notes/Level%201/03_collections_and_functions.md)
 4. [Data visualization concepts](notes/05_data_visualization.md)
-5. [Level 2 Module 1: Object-Oriented Programming](notes/level_2_module_1_oop.md)
+5. [Level 2 Module 1: Object-Oriented Programming](notes/Level-2/oop.md)
 
 The scripts are illustrative examples prepared for this repository, using fictional data. This collection records topics studied rather than claiming that every exercise has been completed or that mastery has been independently assessed.
 
