@@ -1,50 +1,42 @@
-# Collections and function tools
+# Collections and functions
 
-## Representing records
+## Choosing a collection
 
-A list stores an ordered sequence. A dictionary associates keys with values, such as a fictional student's name and marks. A list of dictionaries can represent multiple records.
-
-A function packages reusable behavior. `return` passes a result to the caller; `print` displays a value.
-
-## Transform, select, combine, and number
-
-| Tool | Purpose | Detail to remember |
+| Collection | Purpose | Example |
 | --- | --- | --- |
-| `map(function, values)` | Transform each item | Returns an iterator |
-| `filter(predicate, values)` | Keep matching items | Returns an iterator of original matching items |
-| `zip(first, second)` | Pair corresponding items | Stops at the shortest input by default |
-| `enumerate(values, start=1)` | Produce index/value pairs | Useful for numbered displays |
-| `lambda record: record["score"]` | Define a short expression function | Useful as a sorting key |
-| `sorted(values, key=..., reverse=...)` | Return a new sorted list | Leaves original order unchanged |
-| `values.sort(...)` | Sort a list in place | Changes the list and returns None |
+| List | An ordered, changeable sequence | `[85, 35, 90, 40]` |
+| Tuple | An ordered sequence whose entries cannot be reassigned | `("math", "science")` |
+| Dictionary | Values associated with keys | `{"name": "Alex", "marks": 85}` |
+| Set | Unique values, without a positional order | `{"math", "science"}` |
 
-Convert an iterator to a list when you want to display all its values together. Use `def` rather than a lambda for longer logic.
+A list of dictionaries can represent multiple records, as in the [CSV example](../exercises/session_review/file_formats.py). Square brackets create a list; `append(value)` adds an item to its end.
 
-## Custom sorting
+## Reusable functions
 
-A key function chooses what to compare. `sorted(students, key=lambda student: student["score"], reverse=True)` sorts records from highest score to lowest.
+Define a function with `def`, give it a parameter, and indent its body. A parameter receives a value when the function is called. `return` passes a result back to the caller; `print` displays a value.
 
-A tuple key supports multiple sorting rules. Python's stable sorting preserves input order among items with equal keys. `operator.itemgetter` is another way to extract dictionary fields as sorting keys.
+The illustrative [function_tools.py](../exercises/session_review/function_tools.py) defines `analyze_marks(marks)`. It accepts a list, uses `sum()`, `len()`, and `max()`, and returns a dictionary containing a total, average, pass count, and highest mark.
 
-## Variable arguments and unpacking
+A loop counts each mark greater than or equal to 40. That condition includes exactly 40.
 
-In a function definition, `*values` collects positional arguments into a tuple, and `**details` collects keyword arguments into a dictionary. The parameter names are conventions.
+## Handling an empty collection
 
-At a call site, `*sequence` and `**mapping` unpack arguments. For example, `add_scores(*[10, 20, 30])` supplies three positional arguments.
+Dividing by `len(marks)` would fail when the list is empty, and `max([])` has no highest value. The example checks for an empty list first and returns zero totals, a zero average, no passes, and `None` for the highest value.
 
-## Run the illustrative example
+This makes the function reusable without hardcoding a particular list.
+
+## Run the complete illustrative example
 
 `python3 exercises/session_review/function_tools.py` prints:
 
 ```text
-Doubled: [2, 4, 6, 8]
-Even: [2, 4]
-Ranked: [(1, 'Sam'), (2, 'Alex')]
-Original order: ['Alex', 'Sam']
-Argument sum: 60
-Keywords: {'topic': 'functions', 'status': 'review'}
+Total: 250
+Average: 62.50
+Passed: 3
+Highest: 90
+Empty: {'total': 0, 'average': 0, 'passed': 0, 'highest': None}
 ```
 
-Read [function_tools.py](../exercises/session_review/function_tools.py) to see these tools combined with fictional records.
+The sample marks are fictional. The function returns data; the calling code formats it for display.
 
-Return to [topics studied](../PROGRESS.md).
+Return to [Level 1 topics studied](../PROGRESS.md).
