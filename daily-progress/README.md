@@ -1,5 +1,5 @@
-# Daily progress
+# Daily notes
 
-Copy [the daily log template](../templates/daily-log.md) into this folder and name it `YYYY-MM-DD.md` using the actual practice date.
+Use this folder for optional dated learning notes. Copy [the daily-log template](../templates/daily-log.md) and name the file `YYYY-MM-DD.md` when you want to write an entry.
 
-Record what you actually tried, including unfinished work. No learning sessions have been recorded in this starter repository yet.
+For the educational material already organized in this repository, see [topics studied](../PROGRESS.md).
