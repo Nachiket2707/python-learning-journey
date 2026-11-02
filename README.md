@@ -4,7 +4,7 @@ Python learning notes, clear explanations, and runnable illustrative examples.
 
 ## Topics studied
 
-This published collection focuses on **Python Level 1 topics** and related introductory data concepts.
+This published collection focuses on **Python Level 1 topics**, related introductory data concepts, and **Level 2 Module 1: Object-Oriented Programming**.
 
 Read [the topic overview](PROGRESS.md) for a guide to the material:
 
@@ -12,6 +12,7 @@ Read [the topic overview](PROGRESS.md) for a guide to the material:
 2. [Exceptions, file paths, text, CSV, and JSON](notes/02_files_and_exceptions.md)
 3. [Collections and basic functions](notes/03_collections_and_functions.md)
 4. [Data visualization concepts](notes/05_data_visualization.md)
+5. [Level 2 Module 1: Object-Oriented Programming](notes/level_2_module_1_oop.md)
 
 The scripts are illustrative examples prepared for this repository, using fictional data. This collection records topics studied rather than claiming that every exercise has been completed or that mastery has been independently assessed.
 
@@ -42,3 +43,4 @@ The [roadmap](ROADMAP.md) provides a general study plan. Keep passwords, tokens,
 - [Official Python tutorial](https://docs.python.org/3/tutorial/)
 - [Python standard library](https://docs.python.org/3/library/)
 - [Python downloads](https://www.python.org/downloads/)
+
