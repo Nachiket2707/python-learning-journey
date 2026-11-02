@@ -1,8 +1,8 @@
-# Topics studied
+# Level 1 topics studied
 
 A growing collection of Python learning notes and illustrative examples.
 
-Current learning stage (self-reported): **Python Level 2 — Intermediate Programming**, with a focus on object-oriented programming.
+Published scope: **Python Level 1 topics** and related introductory data concepts. This guide describes the material included here; it is not a certification of complete curriculum coverage.
 
 ## Learning guide
 
@@ -10,8 +10,7 @@ Current learning stage (self-reported): **Python Level 2 — Intermediate Progra
 | --- | --- | --- |
 | [Foundations and loops](notes/01_fundamentals_and_loops.md) | Variables, output, type conversion, percentages, conditions, modulo, counters, and accumulators | [Even numbers](exercises/session_review/even_numbers.py), [student result](exercises/session_review/student_result.py) |
 | [Exceptions and file management](notes/02_files_and_exceptions.md) | Error handling, paths, text modes, reading methods, CSV headers, and JSON storage | [File formats](exercises/session_review/file_formats.py) |
-| [Collections and function tools](notes/03_collections_and_functions.md) | Lists, dictionaries, return values, map/filter, zip/enumerate, lambda, sorting, and variable arguments | [Function tools](exercises/session_review/function_tools.py) |
-| [Object-oriented programming](notes/04_level_2_oop.md) | Classes, objects, initialization, self, methods, instance/class attributes, and validation | [Employee class](exercises/session_review/employee_oop.py) |
+| [Collections and functions](notes/03_collections_and_functions.md) | Lists, tuples, sets, dictionaries, function parameters, return values, loops, and empty-input handling | [Collection functions](exercises/session_review/function_tools.py) |
 | [Data visualization](notes/05_data_visualization.md) | Line styling, heatmaps, histograms, and boxplot summaries | Concept notes and chart-selection guide |
 
 ## Running the examples
@@ -23,10 +22,9 @@ python3 exercises/session_review/even_numbers.py
 python3 exercises/session_review/student_result.py
 python3 exercises/session_review/file_formats.py
 python3 exercises/session_review/function_tools.py
-python3 exercises/session_review/employee_oop.py
 ```
 
-On Windows, use `py` if `python3` is unavailable. These five scripts use only the standard library and fictional sample data. The file example works inside an automatically cleaned temporary folder.
+On Windows, use `py` if `python3` is unavailable. These four scripts use only the standard library and fictional sample data. The file example works inside an automatically cleaned temporary folder.
 
 ## About this collection
 
