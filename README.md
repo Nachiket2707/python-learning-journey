@@ -1,47 +1,42 @@
 # Python Learning Journey
 
-A place for my Python practice, notes, daily learning logs, and small projects.
+Python learning notes, clear explanations, and runnable illustrative examples.
 
-## Current status
+## Topics studied
 
-This repository starts with a learning plan and reusable templates. The example code is starter material; completed learning and projects will be recorded as I work through them.
+My current learning stage is **Python Level 2 — Intermediate Programming**, with a focus on object-oriented programming.
+
+Read [the topic overview](PROGRESS.md) for a guide to the material:
+
+1. [Variables, conversion, conditions, and loops](notes/01_fundamentals_and_loops.md)
+2. [Exceptions, file paths, text, CSV, and JSON](notes/02_files_and_exceptions.md)
+3. [Collections, function tools, sorting, and arguments](notes/03_collections_and_functions.md)
+4. [Classes, objects, and methods](notes/04_level_2_oop.md)
+5. [Data visualization concepts](notes/05_data_visualization.md)
+
+The scripts are illustrative examples prepared for this repository, using fictional data. This collection records topics studied rather than claiming that every exercise has been completed or that mastery has been independently assessed.
 
 ## Get started
 
 1. Install Python 3 if it is not already available.
 2. Clone this repository and open its folder in a terminal.
 3. Check Python: `python3 --version`.
-4. Run the starter example: `python3 exercises/01_basics/hello.py`.
-5. Follow [the roadmap](ROADMAP.md), then copy [the daily log template](templates/daily-log.md) into `daily-progress/YYYY-MM-DD.md`.
+4. Run an example: `python3 exercises/session_review/file_formats.py`.
+5. Use [the topic overview](PROGRESS.md) to find explanations and expected outputs.
 
-On Windows, use `py` if `python3` is unavailable. The starter example uses only the Python standard library.
+On Windows, use `py` if `python3` is unavailable. All five topic-review scripts use only the standard library. The file example uses a temporary folder and cleans it up automatically.
 
 ## Repository guide
 
 | Folder | Purpose |
 | --- | --- |
-| `notes/` | Concepts, examples, and questions in my own words |
-| `exercises/` | Small practice programs grouped by topic |
-| `daily-progress/` | Dated logs of actual practice |
-| `projects/` | Larger programs with their own documentation |
-| `templates/` | Daily log and project README templates |
+| `notes/` | Topic explanations and links to examples |
+| `exercises/` | Runnable educational examples and starter exercises |
+| `daily-progress/` | Guidance for organizing optional dated notes |
+| `projects/` | Small-project ideas and documentation guidance |
+| `templates/` | Reusable daily-log and project README templates |
 
-## Practice routine
-
-- Pick one small topic or problem.
-- Write and run code; try a few different inputs.
-- Explain what happened in my own words.
-- Record difficulties and a concrete next step.
-- Commit useful progress with a descriptive message.
-
-Keep passwords, tokens, personal information, and private datasets out of this public repository.
-
-## First milestones
-
-- [ ] Run the starter example and change its greeting.
-- [ ] Complete the first basics exercises.
-- [ ] Write the first daily log.
-- [ ] Build and document a small project.
+The [roadmap](ROADMAP.md) provides a general study plan. Keep passwords, tokens, personal information, and private datasets out of this public repository.
 
 ## References
 
