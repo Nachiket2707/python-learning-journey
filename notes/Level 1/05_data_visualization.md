@@ -27,6 +27,6 @@ A heatmap represents a matrix through colors. Seaborn provides `heatmap`, which 
 | Compare compact distribution summaries | Boxplots |
 | Compare values across rows and columns | Heatmap |
 
-These are concept notes. The [runnable examples](../PROGRESS.md) in this repository focus on core Python and use only the standard library.
+These are concept notes. The [runnable examples](../../PROGRESS.md) in this repository focus on core Python and use only the standard library.
 
-Return to [topics studied](../PROGRESS.md).
+Return to [topics studied](../../PROGRESS.md).
